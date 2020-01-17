@@ -1,0 +1,74 @@
+.masthead .intro-body .brand-heading {
+  font-size: 40px;
+}
+
+body {
+  font-family: Lora,Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  color: #fff;
+  background-color: #000;
+}
+
+body {
+  font-family: Lora,Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  color: #000;
+  background-color: #fff;
+}
+
+.products {
+  background: linear-gradient(90deg,#e65c00,#F9D423);
+  height: 50% !important;
+  padding: 0 !important;
+}
+
+.w-100 {
+  width: 100%!important;
+}
+
+#mainNav.navbar-shrink {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsla(0,0%,100%,.3);
+  background: #fff;
+  background: linear-gradient(90deg,#e65c00,#F9D423);
+}
+
+#mainNav {
+  font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid hsla(0,0%,100%,.3);
+  background-color: background: linear-gradient(90deg,#e65c00,#F9D423);
+  background: linear-gradient(90deg,#e65c00,#F9D423);
+}
+
+.btn.btn-primary.btn-lg.btn-default.btn-download {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.btn.btn-primary.btn-lg.btn-default.btn-download:hover {
+  color: #fff;
+  border: 1px solid #F9D423;
+  outline: none;
+  background-color: #e65c00;
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: #fff;
+  border: 1px solid #F9D423;
+  outline: none;
+  background-color: #e65c00;
+}
+
+.btn-default {
+  color: #e65c00;
+  border: 1px solid #F9D423;
+}
+
+#contact button {
+  width: 176px;
+}
+
