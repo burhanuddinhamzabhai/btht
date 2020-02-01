@@ -118,9 +118,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/grayscale.js"></script>
     <script type="text/javascript">
-        var stateObj = { foo: "bar" };
-history.pushState(stateObj, "page 2", "bar.html");
-    </script>
+function ChangeUrl(title, url) {
+    if (typeof (history.pushState) != "undefined") {
+        var obj = { Title: BTHT, Url: btht.com };
+        history.pushState(obj, obj.Title, obj.Url);
+    } else {
+        alert("Browser does not support HTML5.");
+    }
+}
+</script>
 </body>
 
 </html>
