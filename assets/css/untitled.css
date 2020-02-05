@@ -72,3 +72,11 @@ body {
   width: 176px;
 }
 
+
+#carousel-1 {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
